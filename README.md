@@ -11,9 +11,12 @@ docker run -p 7009:5050 nomequalquer
 Agora a API estara recebendo requisições no localhost, porta 7009.
 
 Argumentos
+
 choveu: bool, aceita 0 ou 1.
+
 temp: float.
 
 Exemplo de requisição no navegador:
+
 http://0.0.0.0:7009/?choveu=1&temp=12
 

@@ -6,6 +6,7 @@ Abra o terminal na pasta do projeto. Insira o comando abaixo no terminal:
 docker build -t  nomequalquer .
 
 Espere a imagem ser gerada. Após isso, rodar no terminal:
+
 docker run -p 7009:5050 nomequalquer
 
 Agora a API estara recebendo requisições no localhost, porta 7009.

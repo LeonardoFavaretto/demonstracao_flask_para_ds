@@ -31,7 +31,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     author='Leonardo',
     author_email='leonardo_fco@hotmail.com',
-    license='Neoway',
+    license='None',
     packages=find_packages(exclude=("tests", "docs")),
     entry_points={
         'console_scripts': [
